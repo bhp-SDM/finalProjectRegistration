@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Interfaces
 {
-    public interface IStudentRepository
+    interface IStudentRepository
     {
         IEnumerable<Student> GetAll();
         Student GetById(int id);
