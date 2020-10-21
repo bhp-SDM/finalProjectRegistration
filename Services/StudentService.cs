@@ -7,7 +7,7 @@ namespace Services
 {
     public class StudentService
     {
-        private IStudentRepository repo;
+        private readonly IStudentRepository repo;
 
         public StudentService(IStudentRepository repo)
         {
